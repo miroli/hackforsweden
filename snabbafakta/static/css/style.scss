@@ -2,3 +2,54 @@
 @import 'bootswatch';
 @import 'variables';
 
+.navbar-sf {
+	background-color: #326598;
+
+	a {
+		color: #fff;
+	}
+}
+
+a {
+	color: #326598;
+}
+
+.puff {
+	width: 100%;
+}
+
+.puff--main {
+	border-left: 1px solid #EBEBEB;
+	padding-left: 20px;
+	overflow: hidden;
+
+	.puff__img {
+		max-height: 400px;
+		float: none;
+		width: 100%;
+	}
+
+	.puff__header {
+		font-weight: bold;
+	}
+}
+
+.puff--item {
+	margin-top: 40px;
+	overflow: hidden;
+
+	.puff__header {
+		font-weight: bold;
+		margin-top: 0;
+	}
+}
+
+.puff__img {
+	float: left;
+	margin-right: 10px;
+	width: 240px;
+}
+
+hr {
+	width: 80%;
+}

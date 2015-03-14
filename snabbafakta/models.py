@@ -19,4 +19,19 @@ class Question(db.Model):
 		self.source = source
 
 	def __repr__(self):
-		return '<question {}>'.format(self.question)
+		return '<question: {}>'.format(self.question)
+
+class Suggestion(db.Model):
+	__tablename__ = 'suggestion'
+
+	id = db.Column(db.Integer, primary_key=True)
+	question = db.Column(db.String())
+	sender = db.Column(db.String())
+
+	def __init__(self, question, text, sender):
+		self.question = question
+		self.text = text
+		self.sender = sender
+
+	def __repr__(self):
+		return '<question: {}>'.format(self.question)

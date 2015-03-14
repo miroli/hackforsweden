@@ -41,7 +41,7 @@ module.exports = function(grunt) {
       },
       styles: {
         files: cssDevFiles,
-        tasks: ['sass', 'concat:styles', 'autoprefixer']
+        tasks: ['sass', 'autoprefixer']
       }
     }
   });
