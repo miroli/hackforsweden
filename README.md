@@ -1,11 +1,11 @@
 **Välkommen till H4Qs repository för bearbetning av öppna data!**
 
-Tanken med repositoryt och projektet är att:
+Tanken med repositoryt och projektet är:
  * En sandlåda där man kan *experimentera* med att programmera mot öppna data
  * Samla kodsnuttar och goda exempel på *hur* man kan programmera mot de olika källorna till öppen data
- * *Renodla* erfarenheter och experiment till inspirerande artiklar
+ * Att *renodla* erfarenheter och experiment till inspirerande artiklar
 
-Låter det spännande? [Läs vidare](introduktion.md) (under uppbyggnad)!
+Låter det spännande? [Läs vidare](introduktion.md)!
 
  
 ## Uppdateringar
