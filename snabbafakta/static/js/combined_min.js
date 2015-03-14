@@ -1,0 +1,1 @@
+$(".puff img").on("click",function(a){var b=$(a.target);href=b.parent().find("a").attr("href"),location.href=href});
