@@ -1,1 +1,1 @@
-Setting up the repo
+Setting up the repo.
