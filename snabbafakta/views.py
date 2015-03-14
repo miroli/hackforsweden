@@ -1,6 +1,6 @@
 from flask import render_template, request, send_from_directory
 from snabbafakta import app, db
-from snabbafakta.models import Question
+from snabbafakta.models import Question, Suggestion
 
 @app.route('/')
 def index():
@@ -21,7 +21,12 @@ def about():
 @app.route('/foresla', methods=['GET', 'POST'])
 def suggest():
 	if request.method == 'POST':
-		pass
+		form_suggestion = request.form
+		model_suggestion = Suggestion(question=form_suggestion['question'],
+											sender=form_suggestion['email'])
+		db.session.add(model_suggestion)
+		db.session.commit()
+		return render_template('suggest.html')
 	else:
 		return render_template('suggest.html')
 

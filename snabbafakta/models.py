@@ -28,9 +28,8 @@ class Suggestion(db.Model):
 	question = db.Column(db.String())
 	sender = db.Column(db.String())
 
-	def __init__(self, question, text, sender):
+	def __init__(self, question, sender):
 		self.question = question
-		self.text = text
 		self.sender = sender
 
 	def __repr__(self):
