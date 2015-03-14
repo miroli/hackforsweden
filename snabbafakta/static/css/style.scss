@@ -44,6 +44,19 @@ a {
 	}
 }
 
+.puff--bio {
+	margin-top: 40px;
+	overflow: hidden;
+
+	.puff__img {
+		width: 150px;
+	}
+
+	.puff__header {
+		margin-top: 0;
+	}
+}
+
 .puff__img {
 	float: left;
 	margin-right: 10px;

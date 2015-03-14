@@ -7,7 +7,15 @@
 
 				<iframe src="{{ question.iframe }}" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe>
 
-				<p>{{ question.text|safe }}</p>
+				<h3>Bakgrund</h3>
+				{{ question.text|safe }}
+
+				<h3>Data</h3>
+				<ul>
+					<li>
+						<a href="{{ question.source }}">Grunddata på Google Drive</a>
+					</li>
+				</ul>
 			</div>
 		<div class="col-md-2"></div>
 	</div>
