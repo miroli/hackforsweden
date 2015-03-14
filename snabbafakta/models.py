@@ -1,5 +1,5 @@
-from snabbafakta import db
-# from sqlalchemy.dialects.postgresql import JSON
+from flask.ext.sqlalchemy import SQLAlchemy
+db = SQLAlchemy()
 
 class Question(db.Model):
 	__tablename__ = 'question'
@@ -7,11 +7,15 @@ class Question(db.Model):
 	id = db.Column(db.Integer, primary_key=True)
 	slug = db.Column(db.String())
 	question = db.Column(db.String())
+	text = db.Column(db.String())
+	iframe = db.Column(db.String())
 	source = db.Column(db.String())
 
-	def __init__(self, slug, question, source):
+	def __init__(self, slug, question, text, iframe, source):
 		self.slug = slug
 		self.question = question
+		self.text = text
+		self.iframe = iframe
 		self.source = source
 
 	def __repr__(self):

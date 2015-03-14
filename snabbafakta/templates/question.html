@@ -2,6 +2,7 @@
 {% block content %}
 	<h1>{{ question.question }}</h1>
 
-	<h4>Källor</h4>
-	<p>{{ question.source }}</p>
+	<iframe src="{{ question.iframe }}" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="600" height="400"></iframe>
+
+	<p>{{ question.text }}</p>
 {% endblock %}
