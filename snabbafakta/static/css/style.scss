@@ -82,7 +82,7 @@ hr {
 	}
 }
 
-.sf-share-btn {
+.sf-share-btn, .sf-share-btn:hover, .sf-share-btn:focus {
 	background-color: #326598;
 	padding: 8px 15px;
 	color: #fff;
@@ -92,6 +92,7 @@ hr {
 	width: 100px;
 	float: right;
 	margin-left: 10px;
+	text-decoration: none;
 }
 
 @media (max-width: 768px) {
