@@ -8,6 +8,7 @@ Some quick remarks of our stack:
 * Grunt for handling static assets locally.
 * Amazon S3 for storing images.
 * Google Drive for storing data.
+* [Datawrapper](https://datawrapper.de/) for data visualizations.
 * [Heroku](https://www.heroku.com/) for deployment.
 
 Live version: [http://glacial-brushlands-7868.herokuapp.com/](http://glacial-brushlands-7868.herokuapp.com/)
