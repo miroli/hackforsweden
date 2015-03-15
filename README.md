@@ -5,7 +5,7 @@ Tanken med repositoryt och projektet är:
  * Samla kodsnuttar och goda exempel på *hur* man kan programmera mot de olika källorna till öppen data
  * Att *renodla* erfarenheter och experiment till inspirerande artiklar
 
-Låter det spännande? [Läs vidare](introduktion.md)!
+Låter det spännande? [Läs vidare](https://github.com/H4Q/therepo/blob/master/introduktion.md)!
 
  
 ## Uppdateringar
