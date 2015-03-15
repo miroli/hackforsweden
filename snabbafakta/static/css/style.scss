@@ -69,3 +69,21 @@ a {
 hr {
 	width: 80%;
 }
+
+@media (max-width: 768px) {
+	.puff__img {
+		float: none;
+		width: 100%;
+	}
+
+	.puff--main {
+		border-left: none;
+		padding-left: 0;
+	}
+
+	.puff--item {
+		.puff__header {
+			margin-top: 20px;
+		}
+	}
+}
