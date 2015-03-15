@@ -7,6 +7,8 @@
 				<h1>{{ question.question }}</h1>
 
 				<iframe src="{{ question.iframe }}" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe>
+				<a href="https://www.facebook.com/dialog/share?app_id=145634995501895&display=popup&href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2F&redirect_uri=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fexplorer" onclick="window.open(this.href, 'mywin','left=20,top=20,width=450,height=500,toolbar=1,resizable=0'); return false;" class="sf-share-btn">Facebook</a>
+				<a href="https://twitter.com/intent/tweet?via=svtnyheter&amp;related=svtnyheter&amp;lang=sv&amp;text=%22Storfavoriten+Zelmerl%c3%b6w+segrade%22&amp;url=http%3a%2f%2fwww.svt.se%2fkultur%2fstorfavoriten-mans-zelmerlow-vann" class="sf-share-btn">Twitter</a>
 
 				<h3>Bakgrund</h3>
 				{{ question.text|safe }}
@@ -17,8 +19,6 @@
 						<a href="{{ question.source }}">Grunddata på Google Drive</a>
 					</li>
 				</ul>
-				<a href="https://www.facebook.com/dialog/share?app_id=145634995501895&display=popup&href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2F&redirect_uri=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fexplorer" onclick="window.open(this.href, 'mywin','left=20,top=20,width=450,height=500,toolbar=1,resizable=0'); return false;">Facebook</a>
-				<a href="https://twitter.com/intent/tweet?via=svtnyheter&amp;related=svtnyheter&amp;lang=sv&amp;text=%22Storfavoriten+Zelmerl%c3%b6w+segrade%22&amp;url=http%3a%2f%2fwww.svt.se%2fkultur%2fstorfavoriten-mans-zelmerlow-vann">Twitter</a>
 			</div>
 		<div class="col-md-2"></div>
 	</div>
