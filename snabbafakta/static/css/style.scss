@@ -70,6 +70,14 @@ hr {
 	width: 80%;
 }
 
+.navbar-sf .navbar-toggle {
+	border-color: #ddd;
+
+	.icon-bar {
+		background-color: #fff;
+	}
+}
+
 @media (max-width: 768px) {
 	.puff__img {
 		float: none;
