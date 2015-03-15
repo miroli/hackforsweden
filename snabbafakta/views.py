@@ -4,7 +4,7 @@ from snabbafakta.models import Question, Suggestion
 
 @app.route('/')
 def index():
-	questions = question = Question.query.all()
+	questions = question = Question.query.order_by('id').all()
 	context = {'questions': questions}
 	return render_template('index.html', **context)
 
