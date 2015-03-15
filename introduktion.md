@@ -12,7 +12,7 @@ föra svensk community kring öppna data framåt!
 
 ## Den delade sandlådan
 
-Under grenen [sandbox](sandbox) hittar du en "sandlåda" med
+Under grenen [sandbox](/H4Q/therepo/tree/sandbox) hittar du en "sandlåda" med
 diverse frön till projekt, kodsnuttar och exempel på vad
 man kan hitta på med öppna data. Använd sandlådan till
 dina egna experiment, gör du något spännande ska ditt
@@ -25,7 +25,7 @@ vad och hur du åstadkommit!
 Tanken med strukturen i det här projektet är att idéer och
 experiment ska kunna förädlas till artiklar eller egna projekt.
 "Färdiga" (för inget är någonsin färdigt på github) artiklar
-hamnar i grenen [artiklar](artiklar).
+hamnar i grenen [artiklar](/H4Q/therepo/tree/artiklar).
 
 
 ## Websidan
