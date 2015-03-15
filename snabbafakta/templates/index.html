@@ -1,26 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="row">
-	<div class="col-md-2"></div>
-		<div class="col-md-8">
-			<div class="puff puff--main">
-				<img class="puff__img" src="{{ config['IMG_DIR'] }}/{{ questions|first|attr("slug") }}.png">
-				<a href="/fragor/{{ questions|first|attr("slug") }}"><h1 class="puff__header">{{ questions|first|attr("question") }}</h1></a>
-			</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="puff puff--main">
+					<img class="puff__img" src="{{ config['IMG_DIR'] }}/{{ questions|first|attr("slug") }}.png">
+					<a href="/fragor/{{ questions|first|attr("slug") }}"><h1 class="puff__header">{{ questions|first|attr("question") }}</h1></a>
+				</div>
 
-			<hr>
+				<hr>
 
-			{% for question in questions[1:] %}
-			<div class="puff puff--item">
-				<img class="puff__img" src="{{ config['IMG_DIR'] }}/{{ question.slug }}.png">
-				<h3 class="puff__header"><a href="/fragor/{{ question.slug }}">{{ question.question }}</a></h3>
-				<p>{{ question.text|safe }}</p>
+				{% for question in questions[1:] %}
+				<div class="puff puff--item">
+					<img class="puff__img" src="{{ config['IMG_DIR'] }}/{{ question.slug }}.png">
+					<h3 class="puff__header"><a href="/fragor/{{ question.slug }}">{{ question.question }}</a></h3>
+					<p>{{ question.text|safe }}</p>
+				</div>
+				<hr>
+				{% endfor %}
 			</div>
-			<hr>
-			{% endfor %}
-		</div>
-	<div class="col-md-2"></div>
-</div>
-<div class="row">
-</div>
+		<div class="col-md-2"></div>
+	</div>
+<div class="container-fluid">
 {% endblock %}

@@ -2,12 +2,17 @@
 @import 'bootswatch';
 @import 'variables';
 
-.navbar-sf {
+.navbar.navbar-sf {
 	background-color: #326598;
+	border-radius: 0;
 
 	a {
 		color: #fff;
 	}
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: #326598;
 }
 
 a {
