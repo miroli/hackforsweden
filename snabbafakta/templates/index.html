@@ -15,7 +15,7 @@
 				<div class="puff puff--item">
 					<img class="puff__img" src="{{ config['IMG_DIR'] }}/{{ question.slug }}.png">
 					<h3 class="puff__header"><a href="/fragor/{{ question.slug }}">{{ question.question }}</a></h3>
-					<p>{{ question.text|safe }}</p>
+					<p>{{ question.text[0:193]|safe }}...</p>
 				</div>
 				<hr>
 				{% endfor %}
